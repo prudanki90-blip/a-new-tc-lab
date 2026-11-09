@@ -1,0 +1,17 @@
+{
+  "name": "daniels-tc-lab",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Android wrapper for Daniels Tissue Culture Lab",
+  "scripts": {
+    "android:sync": "cap sync android",
+    "android:build": "cd android && ./gradlew assembleDebug"
+  },
+  "dependencies": {
+    "@capacitor/android": "7.4.3",
+    "@capacitor/core": "7.4.3"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "7.4.3"
+  }
+}

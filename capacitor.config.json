@@ -1,0 +1,9 @@
+{
+  "appId": "com.danielstclab.app",
+  "appName": "Daniels TC Lab",
+  "webDir": "www",
+  "bundledWebRuntime": false,
+  "android": {
+    "allowMixedContent": false
+  }
+}
